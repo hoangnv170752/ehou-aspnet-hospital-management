@@ -25,7 +25,7 @@ function ContactUs() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("https://hmsmern.onrender.com/user/add-contact-us", {
+      await axios.post("http://localhost:4451/user/add-contact-us", {
         name: name,
         phone: phone,
         email: email,
@@ -67,24 +67,23 @@ function ContactUs() {
             <span className="text-zinc-650 text-4xl">Locate Us</span>
             <br />
             <span className="text-zinc-550 text-2xl">
-              HMS Trivandrum - India
+            Thien An Hospital Hanoi - Vietnam
             </span>
             <span className="text-zinc-500 text-base">
-              HMS, RandomAddress, ExampleBlah, Trivandrum – XXXXXX, Kerala,
-              India
+            Thien An Hospital, Vietnam
             </span>
             <br />
             <div className="flex gap-20 items-start">
               <div className="flex flex-col">
                 <span className="text-zinc-650 text-2xl">Telephone</span>
                 <span className="text-zinc-500 text-base">
-                  +91 123 456 7890
+                  +84 123 847 847
                 </span>
               </div>
               <div className="flex flex-col">
                 <span className="text-zinc-650 text-2xl">Emergency</span>
                 <span className="text-zinc-500 text-base">
-                  +91 123 456 7890
+                +84 123 847 847
                 </span>
               </div>
               <div className="flex flex-col">
@@ -92,14 +91,14 @@ function ContactUs() {
                   Corporate Enquiries
                 </span>
                 <span className="text-zinc-500 text-base">
-                  +91 123 456 7890
+                +84 123 847 847
                 </span>
               </div>
             </div>
             <br />
             <div className="flex flex-col">
               <span className="text-zinc-650 text-2xl">Email</span>
-              <span className="text-zinc-500 text-base">feedback@hms.org</span>
+              <span className="text-zinc-500 text-base">feedback@thienanhospital.org</span>
             </div>
           </div>
           <motion.div

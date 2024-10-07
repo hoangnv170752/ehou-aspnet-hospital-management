@@ -47,6 +47,9 @@ router.post("/add-appointment", async (req, res) => {
       time
     });
 
+    console.log('----->');
+    console.log(newAppointment);
+
     const savedAppointment = await newAppointment.save();
     res.status(200).json(savedAppointment);
   } catch (error) {

@@ -83,6 +83,31 @@ router.post("/add-doctor", async (req, res) => {
   }
 });
 
+router.put("/update-password", async (req, res) => {
+  const { doctorId, newPassword } = req.body;
+
+  if (!doctorId || !newPassword) {
+    return res.status(400).json({ error: "Doctor ID and new password are required" });
+  }
+
+  try {
+    const doctor = await Doctor.findOne({ doctorId });
+    if (!doctor) {
+      return res.status(404).json({ error: "Doctor not found" });
+    }
+
+    const salt = await bcrypt.genSalt(10);
+    const hashedPassword = await bcrypt.hash(newPassword, salt);
+
+    doctor.password = hashedPassword;
+    await doctor.save();
+
+    res.status(200).json({ message: "Password updated successfully" });
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
+
 
 router.get("/get-appointments/:id", async (req, res) => {
   const doctorId = req.params.id;

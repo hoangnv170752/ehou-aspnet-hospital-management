@@ -31,7 +31,7 @@ function Home() {
     const [email , setEmail] = useState("");
     const handleNewsletter = async(e) =>{
         e.preventDefault(); 
-        await axios.post("https://hmsmern.onrender.com/admin/new-letter", {email})
+        await axios.post("http://localhost:4451/admin/new-letter", {email})
         .then(() =>{
             Swal.fire({
                 title: "Success",
@@ -186,7 +186,7 @@ function Home() {
                         <div className="w-[270px] h-[300px] border border-gray-200 rounded-lg bg-[#D4A373] shadow flex justify-center">
                             <div className="flex flex-col items-center justify-center ">
                                 <img className="w-24 h-24 mb-3 rounded-full shadow-lg" src={human1} alt=""/>
-                                <h5 className="mb-1 text-xl font-medium text-black">Dr.Rahul Singh</h5>
+                                <h5 className="mb-1 text-xl font-medium text-black">Dr.Nguyen Hoang</h5>
                                 <span className="text-sm text-black">Surgeon</span>
                                 <div className="flex mt-4 md:mt-6">
                                 <a href="/appointment" className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-gray-900 bg-white border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-700 dark:focus:ring-gray-700 ms-3">Book Appointment</a>
@@ -197,7 +197,7 @@ function Home() {
                         <div className="w-[270px] h-[300px] bg-[#D4A373] border border-gray-200 rounded-lg shadow flex justify-center">
                             <div className="flex flex-col items-center justify-center ">
                                 <img className="w-24 h-24 mb-3 rounded-full shadow-lg" src={doct1} alt=""/>
-                                <h5 className="mb-1 text-xl font-medium text-black">Dr.Ramesh Chand</h5>
+                                <h5 className="mb-1 text-xl font-medium text-black">Dr.Vu Ngoc</h5>
                                 <span className="text-sm text-black">Surgeon</span>
                                 <div className="flex mt-4 md:mt-6">
                                 <a href="/appointment" className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-gray-900 bg-white border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-700 dark:focus:ring-gray-700 ms-3">Book Appointment</a>
@@ -207,7 +207,7 @@ function Home() {
                         <div className="w-[270px] h-[300px] bg-[#D4A373] border border-gray-200 rounded-lg shadow flex justify-center">
                             <div className="flex flex-col items-center justify-center ">
                                 <img className="w-24 h-24 mb-3 rounded-full shadow-lg" src={doct3} alt=""/>
-                                <h5 className="mb-1 text-xl font-medium text-black">Dr.Maxwell Honda</h5>
+                                <h5 className="mb-1 text-xl font-medium text-black">Dr.Dang Linh</h5>
                                 <span className="text-sm text-black">Surgeon</span>
                                 <div className="flex mt-4 md:mt-6">
                                 <a href="/appointment" className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-gray-900 bg-white border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-700 dark:focus:ring-gray-700 ms-3">Book Appointment</a>
@@ -217,7 +217,7 @@ function Home() {
                         <div className="w-[270px] h-[300px] bg-[#D4A373] border border-gray-200 rounded-lg shadow flex justify-center">
                             <div className="flex flex-col items-center justify-center ">
                                 <img className="w-24 h-24 mb-3 rounded-full shadow-lg" src={human4} alt=""/>
-                                <h5 className="mb-1 text-xl font-medium text-black">Dr.Selena Gomez</h5>
+                                <h5 className="mb-1 text-xl font-medium text-black">Dr.Thanh Thanh</h5>
                                 <span className="text-sm text-black">Surgeon</span>
                                 <div className="flex mt-4 md:mt-6">
                                 <a href="/appointment" className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-gray-900 bg-white border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-700 dark:focus:ring-gray-700 ms-3">Book Appointment</a>
@@ -229,7 +229,7 @@ function Home() {
                         <div className="w-[270px] h-[300px] bg-[#D4A373] border border-gray-200 rounded-lg shadow flex justify-center">
                             <div className="flex flex-col items-center justify-center ">
                                 <img className="w-24 h-24 mb-3 rounded-full shadow-lg" src={doct2} alt=""/>
-                                <h5 className="mb-1 text-xl font-medium text-black">Dr.Victor Suresh</h5>
+                                <h5 className="mb-1 text-xl font-medium text-black">Dr.Hinh Tran</h5>
                                 <span className="text-sm text-black">Surgeon</span>
                                 <div className="flex mt-4 md:mt-6">
                                 <a href="/appointment" className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-gray-900 bg-white border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-700 dark:focus:ring-gray-700 ms-3">Book Appointment</a>
@@ -239,7 +239,7 @@ function Home() {
                         <div className="w-[270px] h-[300px] bg-[#D4A373] border border-gray-200 rounded-lg shadow flex justify-center">
                             <div className="flex flex-col items-center justify-center ">
                                 <img className="w-24 h-24 mb-3 rounded-full shadow-lg" src={human6} alt=""/>
-                                <h5 className="mb-1 text-xl font-medium text-black">Dr.Mahesh Dalla</h5>
+                                <h5 className="mb-1 text-xl font-medium text-black">Dr.Hong Tu</h5>
                                 <span className="text-sm text-black">Surgeon</span>
                                 <div className="flex mt-4 md:mt-6">
                                 <a href="/appointment" className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-gray-900 bg-white border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-700 dark:focus:ring-gray-700 ms-3">Book Appointment</a>
@@ -249,7 +249,7 @@ function Home() {
                         <div className="w-[270px] h-[300px] bg-[#D4A373] border border-gray-200 rounded-lg shadow flex justify-center">
                             <div className="flex flex-col items-center justify-center ">
                                 <img className="w-24 h-24 mb-3 rounded-full shadow-lg" src={doct4} alt=""/>
-                                <h5 className="mb-1 text-xl font-medium text-black">Dr.Sasuke Uchiha</h5>
+                                <h5 className="mb-1 text-xl font-medium text-black">Dr.Do Kien</h5>
                                 <span className="text-sm text-black">Surgeon</span>
                                 <div className="flex mt-4 md:mt-6">
                                 <a href="/appointment" className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-gray-900 bg-white border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-700 dark:focus:ring-gray-700 ms-3">Book Appointment</a>
@@ -259,7 +259,7 @@ function Home() {
                         <div className="w-[270px] h-[300px] bg-[#D4A373] border border-gray-200 rounded-lg shadow flex justify-center">
                             <div className="flex flex-col items-center justify-center ">
                                 <img className="w-24 h-24 mb-3 rounded-full shadow-lg" src={doct5} alt=""/>
-                                <h5 className="mb-1 text-xl font-medium text-black">Dr.Miku Uzumaki</h5>
+                                <h5 className="mb-1 text-xl font-medium text-black">Dr.Phan Thi</h5>
                                 <span className="text-sm text-black">Surgeon</span>
                                 <div className="flex mt-4 md:mt-6">
                                     
@@ -313,9 +313,9 @@ function Home() {
                         </div>
                     
                         <div>
-                            <p className=''>I have visited many hospitals but HMS has to be one of the finest anywhere in the world. </p>
+                            <p className=''>I have visited many hospitals but Thien An has to be one of the finest anywhere in the world. </p>
                             <p>From the International desk to the private executive room, service and hospitality has been excellent.</p>
-                            <p> I would highly recommend HMS to all. Once again many thanks for your help.</p>
+                            <p> I would highly recommend Thien An to all. Once again many thanks for your help.</p>
                         </div>
                     </div>
                 </motion.div>
@@ -337,7 +337,7 @@ function Home() {
                                 <div className="w-full md:w-2/3 lg:w-1/2">
                                 <h2 className="text-3xl font-bold text-black">Sign up for our weekly newsletter</h2>
                                 <p className="mt-4 text-gray-600">
-                                Be sure to check out and subscribe to the newsletters of HMS to stay updated about the developments in healthcare field.  
+                                Be sure to check out and subscribe to the newsletters of Thien An to stay updated about the developments in healthcare field.  
                                 </p>
                                 <div className="mt-4">
                                     <p className="font-semibold text-gray-800">

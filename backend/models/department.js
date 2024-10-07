@@ -9,14 +9,14 @@ const departmentSchema = new Schema({
       description: {
         type: String,
       },
-      head: {
-        type: mongoose.Schema.Types.ObjectId,
-        ref: "Doctor",
-      },
-      staff: [{
-        type: mongoose.Schema.Types.ObjectId,
-        ref: "Nurse",
-      }],
+      // head: {
+      //   type: mongoose.Schema.Types.ObjectId,
+      //   ref: "Doctor",
+      // },
+      // staff: [{
+      //   type: mongoose.Schema.Types.ObjectId,
+      //   ref: "Nurse",
+      // }],
 });
 
 const Department = mongoose.model("Department", departmentSchema, "departments");
