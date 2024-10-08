@@ -51,7 +51,7 @@ function Home() {
     }
 
   return (
-    <div className='bg-[#FEFAE0] '   >
+    <div className='bg-[#FFFFFF] '   >
 
         <section 
         
@@ -189,7 +189,7 @@ function Home() {
                                 <h5 className="mb-1 text-xl font-medium text-black">Dr.Nguyen Hoang</h5>
                                 <span className="text-sm text-black">Surgeon</span>
                                 <div className="flex mt-4 md:mt-6">
-                                <a href="/appointment" className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-gray-900 bg-white border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-700 dark:focus:ring-gray-700 ms-3">Book Appointment</a>
+                                <a href="/appointment" className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-gray-900 bg-white border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-700 dark:focus:ring-gray-700 ms-3">Booking Appointment</a>
                                 </div>
                             </div>
                         </div>
@@ -200,7 +200,7 @@ function Home() {
                                 <h5 className="mb-1 text-xl font-medium text-black">Dr.Vu Ngoc</h5>
                                 <span className="text-sm text-black">Surgeon</span>
                                 <div className="flex mt-4 md:mt-6">
-                                <a href="/appointment" className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-gray-900 bg-white border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-700 dark:focus:ring-gray-700 ms-3">Book Appointment</a>
+                                <a href="/appointment" className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-gray-900 bg-white border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-700 dark:focus:ring-gray-700 ms-3">Booking Appointment</a>
                                 </div>
                             </div>
                         </div>
@@ -210,7 +210,7 @@ function Home() {
                                 <h5 className="mb-1 text-xl font-medium text-black">Dr.Dang Linh</h5>
                                 <span className="text-sm text-black">Surgeon</span>
                                 <div className="flex mt-4 md:mt-6">
-                                <a href="/appointment" className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-gray-900 bg-white border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-700 dark:focus:ring-gray-700 ms-3">Book Appointment</a>
+                                <a href="/appointment" className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-gray-900 bg-white border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-700 dark:focus:ring-gray-700 ms-3">Booking Appointment</a>
                                 </div>
                             </div>
                         </div>
@@ -220,7 +220,7 @@ function Home() {
                                 <h5 className="mb-1 text-xl font-medium text-black">Dr.Thanh Thanh</h5>
                                 <span className="text-sm text-black">Surgeon</span>
                                 <div className="flex mt-4 md:mt-6">
-                                <a href="/appointment" className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-gray-900 bg-white border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-700 dark:focus:ring-gray-700 ms-3">Book Appointment</a>
+                                <a href="/appointment" className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-gray-900 bg-white border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-700 dark:focus:ring-gray-700 ms-3">Booking Appointment</a>
                                 </div>
                             </div>
                         </div>
@@ -232,7 +232,7 @@ function Home() {
                                 <h5 className="mb-1 text-xl font-medium text-black">Dr.Hinh Tran</h5>
                                 <span className="text-sm text-black">Surgeon</span>
                                 <div className="flex mt-4 md:mt-6">
-                                <a href="/appointment" className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-gray-900 bg-white border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-700 dark:focus:ring-gray-700 ms-3">Book Appointment</a>
+                                <a href="/appointment" className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-gray-900 bg-white border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-700 dark:focus:ring-gray-700 ms-3">Booking Appointment</a>
                                 </div>
                             </div>
                         </div>
@@ -242,7 +242,7 @@ function Home() {
                                 <h5 className="mb-1 text-xl font-medium text-black">Dr.Hong Tu</h5>
                                 <span className="text-sm text-black">Surgeon</span>
                                 <div className="flex mt-4 md:mt-6">
-                                <a href="/appointment" className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-gray-900 bg-white border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-700 dark:focus:ring-gray-700 ms-3">Book Appointment</a>
+                                <a href="/appointment" className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-gray-900 bg-white border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-700 dark:focus:ring-gray-700 ms-3">Booking Appointment</a>
                                 </div>
                             </div>
                         </div>
@@ -252,7 +252,7 @@ function Home() {
                                 <h5 className="mb-1 text-xl font-medium text-black">Dr.Do Kien</h5>
                                 <span className="text-sm text-black">Surgeon</span>
                                 <div className="flex mt-4 md:mt-6">
-                                <a href="/appointment" className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-gray-900 bg-white border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-700 dark:focus:ring-gray-700 ms-3">Book Appointment</a>
+                                <a href="/appointment" className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-gray-900 bg-white border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-700 dark:focus:ring-gray-700 ms-3">Booking Appointment</a>
                                 </div>
                             </div>
                         </div>
@@ -263,7 +263,7 @@ function Home() {
                                 <span className="text-sm text-black">Surgeon</span>
                                 <div className="flex mt-4 md:mt-6">
                                     
-                                    <a href="/appointment" className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-gray-900 bg-white border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-700 dark:focus:ring-gray-700 ms-3">Book Appointment</a>
+                                    <a href="/appointment" className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-gray-900 bg-white border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-700 dark:focus:ring-gray-700 ms-3">Booking Appointment</a>
                                 </div>
                             </div>
                         </div>
@@ -313,9 +313,9 @@ function Home() {
                         </div>
                     
                         <div>
-                            <p className=''>I have visited many hospitals but Thien An has to be one of the finest anywhere in the world. </p>
+                            <p className=''>I have visited many hospitals but An Sinh has to be one of the finest anywhere in the world. </p>
                             <p>From the International desk to the private executive room, service and hospitality has been excellent.</p>
-                            <p> I would highly recommend Thien An to all. Once again many thanks for your help.</p>
+                            <p> I would highly recommend An Sinh to all. Once again many thanks for your help.</p>
                         </div>
                     </div>
                 </motion.div>
@@ -337,7 +337,7 @@ function Home() {
                                 <div className="w-full md:w-2/3 lg:w-1/2">
                                 <h2 className="text-3xl font-bold text-black">Sign up for our weekly newsletter</h2>
                                 <p className="mt-4 text-gray-600">
-                                Be sure to check out and subscribe to the newsletters of Thien An to stay updated about the developments in healthcare field.  
+                                Be sure to check out and subscribe to the newsletters of An Sinh to stay updated about the developments in healthcare field.  
                                 </p>
                                 <div className="mt-4">
                                     <p className="font-semibold text-gray-800">

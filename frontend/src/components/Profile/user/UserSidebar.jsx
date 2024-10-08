@@ -57,7 +57,7 @@ const UserSidebar =({ profiePic  ,userName}) =>{
           className={"w-full p-2 h-[40px] "}
           to="/user-book-appointment"
         >
-          Book Appointment
+          Booking Appointment
         </NavLink>
         <NavLink
           style={navLinkStyle}
@@ -65,6 +65,13 @@ const UserSidebar =({ profiePic  ,userName}) =>{
           to="/user-medication"
         >
           Medication
+        </NavLink>
+        <NavLink
+          style={navLinkStyle}
+          className={"w-full p-2 h-[40px] "}
+          to="/user-hospitalize"
+        >
+          Hospitalization
         </NavLink>
       </div>
     </div>

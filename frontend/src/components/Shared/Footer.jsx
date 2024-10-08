@@ -20,7 +20,7 @@ function Footer() {
                         fill="black"
                     />
                     </svg>
-                    <span className="ml-4 text-2xl font-bold">Thien An Hospital</span>
+                    <span className="ml-4 text-2xl font-bold">An Sinh Hospital</span>
                 </div>
                 </a>
             </div>

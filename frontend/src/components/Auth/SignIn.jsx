@@ -96,7 +96,7 @@ function SignIn() {
     <motion.section
     
     
-        className="bg-[#FEFAE0] h-screen w-screen">
+        className="bg-[#FFFFFF] h-screen w-screen">
       <motion.div
       ref={ref}
       initial={{ opacity: 0, y: 50 }} 

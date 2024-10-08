@@ -71,7 +71,7 @@ function Appointment() {
     <motion.section
     
 
-    className="bg-[#FEFAE0]">
+    className="bg-[#FFFFFF]">
       <Navbar />
       <div className="h-screen f-screen  flex justify-center items-center">
         <div className=" h-[80%] w-full mt-[80px] flex justify-center items-center gap-5 rounded-xl">
@@ -91,9 +91,9 @@ function Appointment() {
           transition={{ duration: 1.5 }}
           whileInView={{ opacity: 1 }}
           
-          className=" shadow-xl bg-[#FAEDCD] shadow-black lg:w-[50%] w-full overflow-auto">
+          className=" shadow-xl bg-[#FFFFFFF] shadow-black lg:w-[50%] w-full overflow-auto">
             <form className="flex flex-col w-full h-full  gap-4 p-5 justify-center lg:ps-14 items-center">
-              <p className="text-2xl font-semibold">Book Appointment</p>
+              <p className="text-2xl font-semibold">Booking Appointment</p>
               <div className="w-full flex m-2 justify-center items-center ">
                 <div className="w-full flex flex-col">
                   Name:

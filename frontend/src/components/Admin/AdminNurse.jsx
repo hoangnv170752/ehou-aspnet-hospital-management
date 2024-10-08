@@ -22,11 +22,11 @@ function AdminNurse() {
         );
         setDepartments(response.data);
       } catch (error) {
-        Swal.fire({
-          title: "Error",
-          icon: "error",
-          text: "Error Fetching Data!",
-        });
+        // Swal.fire({
+        //   title: "Error",
+        //   icon: "error",
+        //   text: "Error Fetching Data!",
+        // });
       }
     };
 

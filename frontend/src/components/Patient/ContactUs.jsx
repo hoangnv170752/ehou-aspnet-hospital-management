@@ -53,7 +53,7 @@ function ContactUs() {
     
   
         
-        className="h-screen w-screen bg-[#FEFAE0]">
+        className="h-screen w-screen bg-[#FFFFFF]">
       <Navbar />
       <motion.div 
       ref={ref}
@@ -67,10 +67,10 @@ function ContactUs() {
             <span className="text-zinc-650 text-4xl">Locate Us</span>
             <br />
             <span className="text-zinc-550 text-2xl">
-            Thien An Hospital Hanoi - Vietnam
+            An Sinh Hospital Hanoi - Vietnam
             </span>
             <span className="text-zinc-500 text-base">
-            Thien An Hospital, Vietnam
+            An Sinh Hospital, Vietnam
             </span>
             <br />
             <div className="flex gap-20 items-start">
@@ -107,7 +107,7 @@ function ContactUs() {
           animate={{ opacity: inView ? 1 : 0, x: inView ? 0 : 50 }} 
           transition={{ duration: 1.5 }}
           whileInView={{ opacity: 1 }}
-           className="flex flex-col w-[500px] h-4/5 p-4 justify-center items-center bg-[#FAEDCD] gap-10 border border-black broder-2 rounded-lg border-transparent shadow-xl shadow-slate-950">
+           className="flex flex-col w-[500px] h-4/5 p-4 justify-center items-center bg-[#FFFFFFF] gap-10 border border-black broder-2 rounded-lg border-transparent shadow-xl shadow-slate-950">
             <span className="text-zinc-650 text-3xl font-medium">
               Get in touch
             </span>

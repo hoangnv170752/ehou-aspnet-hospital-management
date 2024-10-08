@@ -81,7 +81,7 @@ function UserBookAppointment() {
       <div className="h-[80%] w-[80%] bg-white shadow-xl p-2 flex">
       <UserSidebar profiePic={profiePic} userName={userData.userName} />
         <div className=" w-[70%] ms-24 p-4 flex flex-col justify-around ">
-          <p className="font-semibold text-3xl">Book Appointment</p>
+          <p className="font-semibold text-3xl">Booking Appointment</p>
           <form action="" className="flex flex-col h-[80%] justify-between">
             <div className="w-full flex justify-between">
               <div className="flex flex-col w-[50%] justify-start">

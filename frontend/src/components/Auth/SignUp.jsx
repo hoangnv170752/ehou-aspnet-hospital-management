@@ -39,7 +39,7 @@ function SignUp() {
 
 
   return (
-    <motion.section className='bg-[#FEFAE0]'
+    <motion.section className='bg-[#FFFFFF]'
     >
         <motion.div
         ref={ref}
